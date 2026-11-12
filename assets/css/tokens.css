@@ -1,0 +1,120 @@
+/* ============================================================
+   DESIGN TOKENS — "Gold / Black / White" premium theme
+   Rebrand by editing this file only.
+   ============================================================ */
+
+:root {
+  /* ---- Accent: metallic gold (brand) ---- */
+  --gold-100: #F8F1D6;
+  --gold-300: #E6D08C;
+  --gold-400: #D4AF37;
+  --gold-500: #C9A227;
+  --gold-600: #8A6A12;
+  --gold-700: #6E540E;
+
+  /* ---- Companion accents (neutralised to gold / stone) ---- */
+  --blush-100: #F4F1E9;
+  --blush-300: #E7DCC0;
+  --blush-400: #D4AF37;
+  --blush-500: #C9A227;
+  --blush-700: #7A5E0F;
+
+  --mint-100: #F4F1E9;
+  --mint-400: #D4AF37;
+  --mint-600: #7A5E0F;
+
+  --lilac-100: #F5F3EC;
+  --lilac-300: #E7DCC0;
+  --lilac-500: #C9A227;
+
+  --sky-100: #F4F1E9;
+  --sky-400: #D4AF37;
+
+  /* ---- Ink: surfaces (white → stone) ---- */
+  --ink-950: #FFFFFF;   /* page background */
+  --ink-900: #F7F6F2;   /* alt section */
+  --ink-850: #FFFFFF;   /* cards */
+  --ink-800: #FAF9F5;   /* raised surface */
+  --ink-700: #EFEDE5;
+  --ink-600: #E3DFD3;
+
+  /* ---- Text ---- */
+  --text-strong: #0A0A0A;
+  --text: #1C1C1C;
+  --text-muted: #565656;
+  --text-dim: #7C7C7C;
+  --text-faint: #9C9C9C;
+
+  /* ---- Lines & shadows ---- */
+  --line: #E8E4DA;
+  --line-strong: #D9D3C4;
+  --line-accent: #E4CE8A;
+
+  /* ---- Light surfaces (kept for compatibility) ---- */
+  --paper: #FFFFFF;
+  --paper-alt: #F7F6F2;
+  --paper-line: #E8E4DA;
+  --ink-on-paper: #0A0A0A;
+  --muted-on-paper: #565656;
+
+  /* ---- Semantic ---- */
+  --positive: #1E7A4D;
+  --negative: #B23A2E;
+
+  /* ---- Text on accent fills (gold) ---- */
+  --on-accent: #14100A;
+
+  /* ---- Typography: rounded & friendly ---- */
+  --font-body: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --font-display: 'Quicksand', 'Nunito', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* Type scale (fluid) */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: clamp(0.95rem, 0.9rem + 0.2vw, 1.0625rem);
+  --fs-md: clamp(1.05rem, 1rem + 0.3vw, 1.1875rem);
+  --fs-lg: clamp(1.25rem, 1.1rem + 0.7vw, 1.5rem);
+  --fs-xl: clamp(1.5rem, 1.25rem + 1.2vw, 2rem);
+  --fs-2xl: clamp(1.9rem, 1.4rem + 2.2vw, 2.9rem);
+  --fs-3xl: clamp(2.3rem, 1.6rem + 3.4vw, 4rem);
+  --fs-4xl: clamp(2.7rem, 1.7rem + 4.6vw, 5rem);
+
+  /* Spacing */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4rem;
+  --sp-9: 6rem;
+  --sp-10: 8rem;
+
+  /* Layout */
+  --container: 1180px;
+  --container-narrow: 820px;
+  --gutter: clamp(1.15rem, 4vw, 2.5rem);
+  --header-h: 76px;
+
+  /* Shape — soft and round */
+  --radius-sm: 12px;
+  --radius: 20px;
+  --radius-lg: 30px;
+  --radius-xl: 40px;
+  --radius-pill: 999px;
+
+  /* Elevation — crisp neutral shadows */
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.06);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.10);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.14);
+  --shadow-pink: 0 12px 34px rgba(201, 162, 39, 0.26);
+  --glow-gold: 0 0 0 4px rgba(212, 175, 55, 0.20), 0 12px 30px rgba(212, 175, 55, 0.24);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur: 220ms;
+}
+
+/* Filipino uses the same Latin typefaces — no override needed. */

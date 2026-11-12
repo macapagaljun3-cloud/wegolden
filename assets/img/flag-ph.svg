@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" role="img" aria-label="Philippines">
+  <rect width="60" height="15" fill="#0038A8"/>
+  <rect y="15" width="60" height="15" fill="#CE1126"/>
+  <path d="M0 0 L26 15 L0 30 Z" fill="#FFFFFF"/>
+  <g fill="#FCD116">
+    <circle cx="8" cy="15" r="3.2"/>
+    <g stroke="#FCD116" stroke-width="1.1" stroke-linecap="round">
+      <line x1="8" y1="15" x2="8" y2="8.4"/>
+      <line x1="8" y1="15" x2="8" y2="21.6"/>
+      <line x1="8" y1="15" x2="1.6" y2="15"/>
+      <line x1="8" y1="15" x2="14.4" y2="15"/>
+      <line x1="8" y1="15" x2="3.5" y2="10.5"/>
+      <line x1="8" y1="15" x2="12.5" y2="19.5"/>
+      <line x1="8" y1="15" x2="12.5" y2="10.5"/>
+      <line x1="8" y1="15" x2="3.5" y2="19.5"/>
+    </g>
+    <circle cx="8" cy="4.2" r="1.5"/>
+    <circle cx="8" cy="25.8" r="1.5"/>
+    <circle cx="20.5" cy="15" r="1.5"/>
+  </g>
+</svg>
